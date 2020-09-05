@@ -18,7 +18,7 @@ const PostDetail = () => {
             <h2>Posted Id : {post.id}</h2>
             <h2>Posted Title : {post.title}</h2>
             <h2>Post Details : {post.body}</h2>
-            <Comments></Comments>
+            <Comments postid ={postId}></Comments>
 
                         
 
